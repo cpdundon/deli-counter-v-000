@@ -18,6 +18,6 @@ end
 def take_a_number(katz_deli, name)
   katz_deli << name
   l = katz_deli.size
-  
+  mst = "Welcome, #{name}.  You are number #{l.to_s} in line."
   katz_deli
 end
