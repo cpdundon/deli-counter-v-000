@@ -25,7 +25,7 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.size == 0
-    
+    return ""
   end
   
   name = katz_deli.shift
