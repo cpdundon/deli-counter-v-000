@@ -14,3 +14,4 @@ def line(katz_deli)
     puts msg
     msg
 end
+
