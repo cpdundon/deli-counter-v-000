@@ -25,7 +25,9 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.size == 0
-    return ""
+    msg = "There are no people in line."
+    puts(msg)
+    return msg
   end
   
   name = katz_deli.shift
