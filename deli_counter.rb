@@ -22,3 +22,9 @@ def take_a_number(katz_deli, name)
   puts msg
   katz_deli
 end
+
+def now_serving(katz_deli)
+  name = katz_deli.shift
+  msg = "Now serving "
+  
+end
