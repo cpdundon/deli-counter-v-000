@@ -31,6 +31,7 @@ def now_serving(katz_deli)
   end
   
   name = katz_deli.shift
-  msg = "Now serving #{name}."
-  
+  msg = "Currently serving #{name}."
+  puts(msg)
+  msg
 end
