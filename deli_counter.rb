@@ -24,7 +24,11 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
+  if katz_deli.size == 0
+    
+  end
+  
   name = katz_deli.shift
-  msg = "Now serving "
+  msg = "Now serving #{name}."
   
 end
